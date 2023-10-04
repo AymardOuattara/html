@@ -1,0 +1,129 @@
+[
+    {
+        "template": "<h4>Authorization</h4><p>You can add authorization to a user by selecting user and selecting the profil that you want authorized him</p>"
+    },
+    {   
+        "fieldGroupClassName": "d-flex flex-wrap flex-start",
+        "fieldGroup": [
+            {   
+                "className": "flex-5",
+                "key": "user_id",
+                "type": "select",
+                "hide": true,
+                "templateOptions": {
+                    "required": true,
+                    "translate": true,
+                    "label": "FORM.USER",
+                    "options": [],
+                    "valueProp": "id",
+                    "labelProp": "login"
+                }
+            },             
+            {   
+                "className": "flex-5",
+                "key": "profile_id",
+                "type": "select",
+                "hide": true,
+                "templateOptions": {
+                    "required": true,
+                    "translate": true,
+                    "mode": "multiple",
+                    "label": "FORM.PROFIL",
+                    "options": [],
+                    "valueProp": "id",
+                    "labelProp": "label"
+                }
+            }, 
+            {   
+                "className": "flex-auto",
+                "key": "description",
+                "type": "input",
+                "hide": true,
+                "templateOptions": {
+                    "translate": true,
+                    "label": "FORM.DESCRIPTION"
+                }
+            },  
+            {   
+                "className": "flex-1",
+                "key": "status",
+                "type": "checkbox",
+                "hide": true,
+                "templateOptions": {
+                    "translate": true,
+                    "label": "FORM.IS_ACTIVE"
+                },
+                "defaultValue": true
+            }
+        ]
+    },
+    {
+        "fieldGroupClassName": "",
+        "fieldGroup": [                    
+            {
+                "fieldGroupClassName": "d-flex flex-wrap flex-start",
+                "fieldGroup": [                                
+                    {
+                        "className": "flex-6",
+                        "key": "user_id",
+                        "type": "list-box",
+                        "templateOptions": {
+                            "options": [],
+                            "required": true,
+                            "label": "FORM.USER",
+                            "divider": "right",
+                            "dividerText": "Select the profiles to add",
+                            "labelProp": "login",
+                            "valueProp": "id",
+                            "checkbox": false,
+                            "multiple": false,
+                            "onChange": "/Function((field, event)=> {field.form.get('profile_id').setValue(field.templateOptions.options.find(e=> e.id == event.value)?.profiles.map(e=>e.id))})/"
+                        }
+                    },            
+                    {
+                        "className": "flex-4",
+                        "key": "profile_id",
+                        "type": "list-box",
+                        "templateOptions": {
+                            "options": [],
+                            "label": "FORM.PROFIL",
+                            "valueProp": "id",
+                            "onChange": "/Function((field, event)=> {})/"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "fieldGroupClassName": "action-bloc",
+        "fieldGroup": [
+            {
+                "className": "flex-1",
+                "type": "button",
+                "templateOptions": {
+                    "type": "submit",
+                    "label": "Submit",
+                    "loading": false,
+                    "colorType": "primary",
+                    "click": "/Function((field)=>{console.log('clik on submit');field.templateOptions.loading = true; field.form.statusChanges.subscribe(obs=>{if(field.templateOptions.loading) field.templateOptions.loading = false})})/"
+                },
+                "expressionProperties": {
+                    "templateOptions": {
+                        "disabled": "/Function( (model, formState, field) => { return !field.form.valid } )/"
+                    }
+                }
+            },
+            { 
+                "type": "button",
+                "templateOptions": {
+                    "type": "reset",
+                    "label": "Reset",
+                    "bgColor": "#000",
+                    "textColor": "#fff",
+                    "click": "/Function((field)=>{field.options.resetModel()})/"
+                }
+            }
+        ]
+    }
+]

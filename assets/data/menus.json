@@ -1,0 +1,1581 @@
+[
+    {
+      "code": 10,
+      "label": "Parametrage",
+      "routing": "#",
+      "namespace": "Parametrer votre logiciel",
+      "active": false,
+      "sub": [
+        {
+          "parent_code": 10,
+          "code": 1001,
+          "label": "Annuaire",
+          "description": "Annuaire",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": [
+            {
+              "parent_code": 1001,
+              "code": 100103,
+              "label": "Annuaire global",
+              "description": "Description",
+              "routing": "settings/general",
+              "namespace": "settings"
+            },
+            {
+              "parent_code": 1001,
+              "code": 100104,
+              "label": "Nouvelle Pers. Cont.",
+              "description": "Description",
+              "routing": "settings/general",
+              "namespace": "settings"
+            }
+          ]
+        },
+        {
+          "parent_code": 10,
+          "code": 1003,
+          "label": "Services",
+          "description": "Services",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 10,
+          "code": 1004,
+          "label": "Fonctions",
+          "description": "Fonctions",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 10,
+          "code": 1005,
+          "label": "Articles",
+          "description": "Articles",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 10,
+          "code": 1006,
+          "label": "Creation(s), Modification(s) Clients",
+          "description": "Creation(s), Modification(s) Clients",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 10,
+          "code": 1007,
+          "label": "Fournisseurs",
+          "description": "Fournisseurs",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 10,
+          "code": 1011,
+          "label": "Agence",
+          "description": "Agence",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 10,
+          "code": 1015,
+          "label": "Familles article",
+          "description": "Familles article",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 10,
+          "code": 1016,
+          "label": "Rayons",
+          "description": "Rayons",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 10,
+          "code": 1017,
+          "label": "Sous rayons",
+          "description": "Sous rayons",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 10,
+          "code": 1018,
+          "label": "Agents",
+          "description": "Agents",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 10,
+          "code": 1019,
+          "label": "Modules du logiciel IGESCOM",
+          "description": "Modules du logiciel IGESCOM",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 10,
+          "code": 1029,
+          "label": "Validations PRPM",
+          "description": "Validations PRPM",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 10,
+          "code": 1030,
+          "label": "Marge article",
+          "description": "Marge article",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 10,
+          "code": 1031,
+          "label": "Famille, Rayons, sous-rayons",
+          "description": "Famille, Rayons, sous-rayons",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 10,
+          "code": 1033,
+          "label": "Consultation des clients",
+          "description": "Consultation des clients",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 10,
+          "code": 1034,
+          "label": "Fournisseurs-Distributeurs",
+          "description": "Fournisseurs-Distributeurs",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 10,
+          "code": 1037,
+          "label": "Saisie Carte Fidelite",
+          "description": "Saisie Carte Fidelite",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 10,
+          "code": 1038,
+          "label": "Fiche d'identification",
+          "description": "Fiche d'identification",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        }
+      ]
+    },
+    {
+      "code": 11,
+      "label": "Caisse",
+      "routing": "#",
+      "namespace": "Gestion de la caisse",
+      "active": false,
+      "sub": [
+        {
+          "parent_code": 11,
+          "code": 1101,
+          "label": "Connexion a la caisse",
+          "description": "Connexion a la caisse",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 11,
+          "code": 1102,
+          "label": "Gestion des avoirs",
+          "description": "Gestion des avoirs",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 11,
+          "code": 1103,
+          "label": "Operations de cloture",
+          "description": "Operations de cloture",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 11,
+          "code": 1104,
+          "label": "Mouvement de caisse",
+          "description": "Mouvement de caisse",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 11,
+          "code": 1105,
+          "label": "Lignes supprimees & ventes annulees",
+          "description": "Lignes supprimees & ventes annulees",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 11,
+          "code": 1106,
+          "label": "Ventes en attente de la journee",
+          "description": "Ventes en attente de la journee",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 11,
+          "code": 1107,
+          "label": "Acompte(s) sur commande du client a terme",
+          "description": "Acompte(s) sur commande du client a terme",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 11,
+          "code": 1108,
+          "label": "Fond de caisse de la journee",
+          "description": "Fond de caisse de la journee",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 11,
+          "code": 1109,
+          "label": "Deblocage de Caisse(s) ",
+          "description": "Deblocage de Caisse(s) ",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 11,
+          "code": 1110,
+          "label": "Etats des caisses",
+          "description": "Etats des caisses",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 11,
+          "code": 1112,
+          "label": "Reedition de facture",
+          "description": "Reedition de facture",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 11,
+          "code": 1113,
+          "label": "Rechargement carte NEOFID",
+          "description": "Rechargement carte NEOFID",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 11,
+          "code": 1114,
+          "label": "CA Vendeur CAISSE",
+          "description": "CA Vendeur CAISSE",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 11,
+          "code": 1115,
+          "label": "CA Par mode paiement",
+          "description": "CA Par mode paiement",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        }
+      ]
+    },
+    {
+      "code": 12,
+      "label": "Tableau de bord",
+      "routing": "#",
+      "namespace": "Votre tableau de bord",
+      "active": false,
+      "sub": [
+        {
+          "parent_code": 12,
+          "code": 1201,
+          "label": "Etat des ecarts de prix",
+          "description": "Etat des ecarts de prix",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1203,
+          "label": "Chiffre d'affaires par periode",
+          "description": "Chiffre d'affaires par periode",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1204,
+          "label": "Vente a taux de marques anormaux",
+          "description": "Vente a taux de marques anormaux",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1206,
+          "label": "Valorisation du stock",
+          "description": "Valorisation du stock",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1207,
+          "label": "Liste des ventes par caisse",
+          "description": "Liste des ventes par caisse",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1209,
+          "label": "Etats des timbres",
+          "description": "Etats des timbres",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1210,
+          "label": "Transferts en souffrance",
+          "description": "Transferts en souffrance",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1211,
+          "label": "Etat des stocks negatifs",
+          "description": "Etat des stocks negatifs",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1214,
+          "label": "Valorisation des lignes supprimees",
+          "description": "Valorisation des lignes supprimees",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1215,
+          "label": "Ventes a stocks negatifs",
+          "description": "Ventes a stocks negatifs",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1216,
+          "label": "Suivi des ventes carte de fidelite",
+          "description": "Suivi des ventes carte de fidelite",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1217,
+          "label": "Ecart mvt stock et stock article",
+          "description": "Ecart mvt stock et stock article",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1218,
+          "label": "Etat produits vendus et en rupture de stock",
+          "description": "Etat produits vendus et en rupture de stock",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1219,
+          "label": "etat caisses non cloturees",
+          "description": "etat caisses non cloturees",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1220,
+          "label": "Recap vente caisse",
+          "description": "Recap vente caisse",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1249,
+          "label": "Etat Provision Stocks",
+          "description": "Etat Provision Stocks",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1250,
+          "label": "Etat Stock Mort - Stock Dormant",
+          "description": "Etat Stock Mort - Stock Dormant",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1251,
+          "label": "Etat remises appliquees aux caisses",
+          "description": "Etat remises appliquees aux caisses",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1252,
+          "label": "Etat produits non vendus",
+          "description": "Etat produits non vendus",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1253,
+          "label": "Facture Client echu",
+          "description": "Facture Client echu",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1254,
+          "label": "Articles vendus a la caisse",
+          "description": "Articles vendus a la caisse",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1255,
+          "label": "Stock produit par sous rayon",
+          "description": "Stock produit par sous rayon",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1256,
+          "label": "Statistique des remises",
+          "description": "Statistique des remises",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1257,
+          "label": "STOCKS PRODUITS PAR STATUS",
+          "description": "STOCKS PRODUITS PAR STATUS",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1258,
+          "label": "Statistique Presse",
+          "description": "Statistique Presse",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1259,
+          "label": "Stat. tranches horaires ventes",
+          "description": "Stat. tranches horaires ventes",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1260,
+          "label": "Produit ayant du stock sans PRMP  ",
+          "description": "Produit ayant du stock sans PRMP  ",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1261,
+          "label": "Produit mal renseigne",
+          "description": "Produit mal renseigne",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1262,
+          "label": "Ecart de caisse",
+          "description": "Ecart de caisse",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1263,
+          "label": "Chiffre d'affaires par carte de fidelite",
+          "description": "Chiffre d'affaires par carte de fidelite",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1264,
+          "label": "Meilleurs Clients carte de fidelite",
+          "description": "Meilleurs Clients carte de fidelite",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1265,
+          "label": "Etat d'alerte des stocks minima-maxima",
+          "description": "Etat d'alerte des stocks minima-maxima",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1266,
+          "label": "Status Facture zero prix",
+          "description": "Status Facture zero prix",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1267,
+          "label": "SAV Numero Series",
+          "description": "SAV Numero Series",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1268,
+          "label": "Etat Peremption Stock",
+          "description": "Etat Peremption Stock",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1269,
+          "label": "CA par carte de fidelite Neofid",
+          "description": "CA par carte de fidelite Neofid",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1270,
+          "label": "Meilleurs Clients carte de fidelite Neofid",
+          "description": "Meilleurs Clients carte de fidelite Neofid",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1271,
+          "label": "Depot carte de fidelite Neofid",
+          "description": "Depot carte de fidelite Neofid",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1272,
+          "label": "Stock produit par sous rayon - Expo",
+          "description": "Stock produit par sous rayon - Expo",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 12,
+          "code": 1273,
+          "label": "Chiffre d'affaire par reference",
+          "description": "Chiffre d'affaire par reference",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        }
+      ]
+    },
+    {
+      "code": 13,
+      "label": "Rech. documentaire",
+      "routing": "#",
+      "namespace": "Recherche de livre sur la base DILICOM interne",
+      "active": false,
+      "sub": [
+        {
+          "parent_code": 13,
+          "code": 1301,
+          "label": "Fichiers DILICOM",
+          "description": "Fichiers DILICOM",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": [
+            {
+              "parent_code": 1301,
+              "code": 130101,
+              "label": "Traitement",
+              "description": "Description",
+              "routing": "settings/general",
+              "namespace": "settings"
+            },
+            {
+              "parent_code": 1301,
+              "code": 130102,
+              "label": "Mise à jour",
+              "description": "Description",
+              "routing": "settings/general",
+              "namespace": "settings"
+            },
+            {
+              "parent_code": 1301,
+              "code": 130103,
+              "label": "Suppression",
+              "description": "Description",
+              "routing": "settings/general",
+              "namespace": "settings"
+            }
+          ]
+        },
+        {
+          "parent_code": 13,
+          "code": 1302,
+          "label": "Recherche documentaire",
+          "description": "Recherche documentaire",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 13,
+          "code": 1303,
+          "label": "Distributeurs DILICOM",
+          "description": "Distributeurs DILICOM",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        }
+      ]
+    },
+    {
+      "code": 14,
+      "label": "Rayons",
+      "routing": "#",
+      "namespace": "Rechercher un article par rayon et sous rayon",
+      "active": false,
+      "sub": [
+        {
+          "parent_code": 14,
+          "code": 1401,
+          "label": "Recherche d'article",
+          "description": "Recherche d'article",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 14,
+          "code": 1402,
+          "label": "Chiffre d'affaires rayon",
+          "description": "Chiffre d'affaires rayon",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 14,
+          "code": 1403,
+          "label": "Valeur du stock par rayon",
+          "description": "Valeur du stock par rayon",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 14,
+          "code": 1404,
+          "label": "Variation de prix",
+          "description": "Variation de prix",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 14,
+          "code": 1405,
+          "label": "BL Vente informatique (SERIES)",
+          "description": "BL Vente informatique (SERIES)",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 14,
+          "code": 1406,
+          "label": "Gestion de reserves",
+          "description": "Gestion de reserves",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 14,
+          "code": 1407,
+          "label": "Etat Reserves",
+          "description": "Etat Reserves",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        }
+      ]
+    },
+    {
+      "code": 15,
+      "label": "Stocks",
+      "routing": "#",
+      "namespace": "Gestion des stocks",
+      "active": false,
+      "sub": [
+        {
+          "parent_code": 15,
+          "code": 1501,
+          "label": "Transfert inter-depots",
+          "description": "Transfert inter-depots",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": [
+            {
+              "parent_code": 1501,
+              "code": 150101,
+              "label": "Emissions",
+              "description": "Description",
+              "routing": "settings/general",
+              "namespace": "settings"
+            },
+            {
+              "parent_code": 1501,
+              "code": 150102,
+              "label": "Réceptions",
+              "description": "Description",
+              "routing": "settings/general",
+              "namespace": "settings"
+            },
+            {
+              "parent_code": 1501,
+              "code": 150104,
+              "label": "Emissions Fichier Externe",
+              "description": "Description",
+              "routing": "settings/general",
+              "namespace": "settings"
+            }
+          ]
+        },
+        {
+          "parent_code": 15,
+          "code": 1503,
+          "label": "Mouvement detaille",
+          "description": "Mouvement detaille",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 15,
+          "code": 1504,
+          "label": "Entree(s) en stock",
+          "description": "Entree(s) en stock",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 15,
+          "code": 1505,
+          "label": "Sortie(s) de stock",
+          "description": "Sortie(s) de stock",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 15,
+          "code": 1507,
+          "label": "Liste des produits de la solderie",
+          "description": "Liste des produits de la solderie",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 15,
+          "code": 1508,
+          "label": "Gestion des stocks minima-maxima (par sous-rayon)",
+          "description": "Gestion des stocks minima-maxima (par sous-rayon)",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 15,
+          "code": 1509,
+          "label": "Gestion des stocks minima-maxima (par article)",
+          "description": "Gestion des stocks minima-maxima (par article)",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        }
+      ]
+    },
+    {
+      "code": 16,
+      "label": "Ventes",
+      "routing": "#",
+      "namespace": "Gestion des ventes",
+      "active": false,
+      "sub": [
+        {
+          "parent_code": 16,
+          "code": 1601,
+          "label": "Devis",
+          "description": "Devis",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 16,
+          "code": 1602,
+          "label": "Commande client",
+          "description": "Commande client",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 16,
+          "code": 1603,
+          "label": "Bon de livraison",
+          "description": "Bon de livraison",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 16,
+          "code": 1604,
+          "label": "Retour client sur B.L",
+          "description": "Retour client sur B.L",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 16,
+          "code": 1605,
+          "label": "Facture",
+          "description": "Facture",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 16,
+          "code": 1606,
+          "label": "Commission",
+          "description": "Commission",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 16,
+          "code": 1607,
+          "label": "Avoir client sur facture",
+          "description": "Avoir client sur facture",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 16,
+          "code": 1609,
+          "label": "Retour Expo Simple",
+          "description": "Retour Expo Simple",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 16,
+          "code": 1613,
+          "label": "Facturation Presse",
+          "description": "Facturation Presse",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 16,
+          "code": 1614,
+          "label": "Retour Expo sur Devis",
+          "description": "Retour Expo sur Devis",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 16,
+          "code": 1615,
+          "label": "Saisie Expo",
+          "description": "Saisie Expo",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 16,
+          "code": 1616,
+          "label": "Recap Devis Expo",
+          "description": "Recap Devis Expo",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 16,
+          "code": 1617,
+          "label": "Recap Facture par commercial",
+          "description": "Recap Facture par commercial",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 16,
+          "code": 1619,
+          "label": "Performance Commerciale",
+          "description": "Performance Commerciale",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 16,
+          "code": 1620,
+          "label": "Analyse Produits Terme",
+          "description": "Analyse Produits Terme",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 16,
+          "code": 1621,
+          "label": "CA Produits par client terme",
+          "description": "CA Produits par client terme",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 16,
+          "code": 1622,
+          "label": "Performance AGENCE",
+          "description": "Performance AGENCE",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 16,
+          "code": 1623,
+          "label": "Recap Devis",
+          "description": "Recap Devis",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        }
+      ]
+    },
+    {
+      "code": 17,
+      "label": "Achats",
+      "routing": "#",
+      "namespace": "Gestion des Achats",
+      "active": false,
+      "sub": [
+        {
+          "parent_code": 17,
+          "code": 1701,
+          "label": "Demande de prix",
+          "description": "Demande de prix",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 17,
+          "code": 1702,
+          "label": "Besoin agence",
+          "description": "Besoin agence",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 17,
+          "code": 1703,
+          "label": "Commande interne ",
+          "description": "Commande interne ",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 17,
+          "code": 1704,
+          "label": "Commande consolidee",
+          "description": "Commande consolidee",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 17,
+          "code": 1705,
+          "label": "Commande fournisseur",
+          "description": "Commande fournisseur",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 17,
+          "code": 1706,
+          "label": "Bon d'entree en stock",
+          "description": "Bon d'entree en stock",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 17,
+          "code": 1707,
+          "label": "Retour marchandise",
+          "description": "Retour marchandise",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 17,
+          "code": 1708,
+          "label": "Facture fournisseur",
+          "description": "Facture fournisseur",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 17,
+          "code": 1712,
+          "label": "Retour Fournisseur",
+          "description": "Retour Fournisseur",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 17,
+          "code": 1715,
+          "label": "Manquant Fournisseur",
+          "description": "Manquant Fournisseur",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 17,
+          "code": 1716,
+          "label": "Valeurs achats par fournisseur",
+          "description": "Valeurs achats par fournisseur",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 17,
+          "code": 1717,
+          "label": "Reajustement du PRMP",
+          "description": "Reajustement du PRMP",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 17,
+          "code": 1718,
+          "label": "Annulation de Bon de reception",
+          "description": "Annulation de Bon de reception",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 17,
+          "code": 1719,
+          "label": "Demande d'achats des commerciaux",
+          "description": "Demande d'achats des commerciaux",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 17,
+          "code": 1720,
+          "label": "Traitements des reliquats",
+          "description": "Traitements des reliquats",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 17,
+          "code": 1721,
+          "label": "Statistique par fournisseur",
+          "description": "Statistique par fournisseur",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        }
+      ]
+    },
+    {
+      "code": 18,
+      "label": "Transit",
+      "routing": "#",
+      "namespace": "Gestion du transit",
+      "active": false,
+      "sub": [
+        {
+          "parent_code": 18,
+          "code": 1801,
+          "label": "Dossier de transit",
+          "description": "Dossier de transit",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 18,
+          "code": 1802,
+          "label": "Modification des entrees",
+          "description": "Modification des entrees",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 18,
+          "code": 1803,
+          "label": "Detail des prix de revient",
+          "description": "Detail des prix de revient",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 18,
+          "code": 1804,
+          "label": "Prestation transit et FRAIS DE DOUANE ",
+          "description": "Prestation transit et FRAIS DE DOUANE ",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 18,
+          "code": 1805,
+          "label": "Rubriques douanieres du DOSSIER",
+          "description": "Rubriques douanieres du DOSSIER",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 18,
+          "code": 1806,
+          "label": "Estimation CIF et Prix de revient ",
+          "description": "Estimation CIF et Prix de revient ",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 18,
+          "code": 1810,
+          "label": "Valeur Achat par Categorie",
+          "description": "Valeur Achat par Categorie",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        }
+      ]
+    },
+    {
+      "code": 19,
+      "label": "Interface",
+      "routing": "#",
+      "namespace": "Interface compta",
+      "active": false,
+      "sub": [
+        {
+          "parent_code": 19,
+          "code": 1901,
+          "label": "Ecriture à valider",
+          "description": "Ecriture à valider",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 19,
+          "code": 1902,
+          "label": "Ecritures validées en attente de remontée",
+          "description": "Ecritures validées en attente de remontée",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 19,
+          "code": 1903,
+          "label": "Ecritures remontées en comptabilité",
+          "description": "Ecritures remontées en comptabilité",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 19,
+          "code": 1904,
+          "label": "Comptes comptables à créer avant remontées",
+          "description": "Comptes comptables à créer avant remontées",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 19,
+          "code": 1905,
+          "label": "Anomalie dévise",
+          "description": "Anomalie dévise",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 19,
+          "code": 1906,
+          "label": "Recouvrement",
+          "description": "Recouvrement",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        }
+      ]
+    },
+    {
+      "code": 20,
+      "label": "Inventaire",
+      "routing": "#",
+      "namespace": "Gestion des inventaires",
+      "active": false,
+      "sub": [
+        {
+          "parent_code": 20,
+          "code": 2001,
+          "label": "Mise à jour des emplacements",
+          "description": "Mise à jour des emplacements",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 20,
+          "code": 2002,
+          "label": "Génération des articles",
+          "description": "Génération des articles",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 20,
+          "code": 2003,
+          "label": "Liste des inventaires",
+          "description": "Liste des inventaires",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 20,
+          "code": 2004,
+          "label": "Rollback",
+          "description": "Rollback",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        }
+      ]
+    },
+    {
+      "code": 21,
+      "label": "Bons pour achats",
+      "routing": "#",
+      "namespace": "Gestion des bon(s) achat(s)",
+      "active": false,
+      "sub": [
+        {
+          "parent_code": 21,
+          "code": 2101,
+          "label": "Listes des commandes",
+          "description": "Listes des commandes",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 21,
+          "code": 2102,
+          "label": "Listes des retours",
+          "description": "Listes des retours",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 21,
+          "code": 2103,
+          "label": "Listes des clients - Bons d'achats",
+          "description": "Listes des clients - Bons d'achats",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 21,
+          "code": 2104,
+          "label": "Liste retour boutique en ligne",
+          "description": "Liste retour boutique en ligne",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        }
+      ]
+    },
+    {
+      "code": 22,
+      "label": "Cartes cadeaux nouveau",
+      "routing": "#",
+      "namespace": "Gestion des carte(s) cadeau(x)",
+      "active": false,
+      "sub": [
+        {
+          "parent_code": 22,
+          "code": 2201,
+          "label": "Listes des commandes",
+          "description": "Listes des commandes",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        }
+      ]
+    },
+    {
+      "code": 28,
+      "label": "Controle",
+      "routing": "#",
+      "namespace": "Controle de gestion",
+      "active": false,
+      "sub": [
+        {
+          "parent_code": 28,
+          "code": 2801,
+          "label": "Saisie du budget ",
+          "description": "Saisie du budget ",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 28,
+          "code": 2802,
+          "label": "Suivi CA",
+          "description": "Suivi CA",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        }
+      ]
+    },
+    {
+      "code": 34,
+      "label": "Reservations rentree scolaire",
+      "routing": "",
+      "namespace": "",
+      "active": false,
+      "sub": [
+        {
+          "parent_code": 34,
+          "code": 3401,
+          "label": "Ajouter une liste d'etablissement",
+          "description": "Ajouter une liste d'etablissement",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 34,
+          "code": 3402,
+          "label": "Creation(s), Modification(s) Etablissement",
+          "description": "Creation(s), Modification(s) Etablissement",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 34,
+          "code": 3403,
+          "label": "Creation(s), Modification(s) classe",
+          "description": "Creation(s), Modification(s) classe",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 34,
+          "code": 3404,
+          "label": "Reservation",
+          "description": "Reservation",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        },
+        {
+          "parent_code": 34,
+          "code": 3405,
+          "label": "Creation(s), Modification(s) client rentree scolaire",
+          "description": "Creation(s), Modification(s) client rentree scolaire",
+          "routing": "settings/general",
+          "namespace": "settings",
+          "sub": []
+        }
+      ]
+    }
+  ]

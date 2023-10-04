@@ -1,0 +1,68 @@
+{
+  "coreTheme": {
+      "layout_orientation": "",
+      "layout_sidenav" : true,
+      "layout_mainnav": false,
+      "layout_primarycolor": "",
+      "layout_textcolor": "",
+      "layout_theme":"light",
+      
+      "header_bgcolor": "",
+      "header_textcolor": "",
+      "header_logo": "assets/img/logo_luxeo.jpeg",
+      "header_search": false,
+      "header_notifications": true,
+      "header_lang": true,
+      "header_useractions": true,
+
+      "mainnav_bgcolor": "#b16a77",
+      "mainnav_textcolor": "#000",
+      "mainnav_fontweight": "normal",
+      "mainnav_fontsize": "normal",
+
+      "sidenav_bgcolor": "",
+      "sidenav_textcolor": "",
+      "sidenav_width": "210px",
+      "sidenav_collapsible": true,
+      "sidenav_collapsed": false
+
+  },
+  "coreParameters": [
+
+  ],
+  "config": {
+    "token_name": "_0119_",
+    "apiEndPoint": "http://197.159.198.13:8084/",
+    "socketEndPoint": "", 
+    "exchange_key": "orilove",
+    "version": "",
+    "email": {
+      "from": "support@flatlogic.com",
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "auth": {
+        "user": "support@flatlogic.com",
+        "pass": ""
+      }
+    },
+    "sms": {
+      "from": "support@flatlogic.com",
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "auth": {
+        "user": "support@flatlogic.com",
+        "pass": ""
+      }
+    },    
+    "google":{
+      "clientId": "671001533244-kf1k1gmp6mnl0r030qmvdu6v36ghmim6.apps.googleusercontent.com",
+      "clientsecret": "Yo4qbKZniqvojzUQ60iKlxqR",
+      "googleMapApiKey": "AIzasyBsvo0x8v3C6aFwcsi2zooOC9tqGCOqCj4"
+    },
+    "microsoft": {
+      "clientId": "4696f457-31af-40de-897c-e00d7d4cff73",
+      "clientsecret": "m8jzZ.5UpHF3=-dXzyxiZ4e[F8OF54@p"
+    },
+    "uploadDir": ""
+  }
+}

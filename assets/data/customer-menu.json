@@ -1,0 +1,91 @@
+[
+    {
+      "code": "ACCOUNT",
+      "label": "Account",
+      "namespace": "account",
+      "routing": "account",
+      "disabled": false,
+      "is_module": false,
+      "icon": "team",
+      "is_load_menu": false,
+      "active": false
+    },
+    {
+        "code": "ADDRESS",
+        "label": "Address",
+        "namespace": "address",
+        "routing": "address",
+        "disabled": false,
+        "is_module": false,
+        "icon": "setting",
+        "is_load_menu": false,
+        "active": false
+    },
+    {
+        "code": "WISHLIST",
+        "label": "Wishlist",
+        "namespace": "wishlist",
+        "routing": "wishlist",
+        "disabled": false,
+        "is_module": false,
+        "icon": "heart",
+        "is_load_menu": false,
+        "active": false
+    },
+    {
+        "code": "INBOX",
+        "label": "Inbox",
+        "namespace": "inbox",
+        "routing": "inbox",
+        "disabled": false,
+        "is_module": false,
+        "icon": "inbox",
+        "is_load_menu": false,
+        "active": false
+    },
+    {
+        "code": "ORDERS",
+        "label": "Orders",
+        "namespace": "orders",
+        "routing": "orders",
+        "disabled": false,
+        "is_module": false,
+        "icon": "shopping-cart",
+        "is_load_menu": false,
+        "active": false
+    },
+    {
+        "code": "CHANGE_INFO",
+        "label": "Change user info",
+        "namespace": "edit-account",
+        "routing": "edit-account",
+        "disabled": false,
+        "is_module": false,
+        "icon": "user",
+        "is_load_menu": false,
+        "active": false
+    },
+    {
+        "code": "CHANGE_PASSWORD",
+        "label": "Change password",
+        "namespace": "change-password",
+        "routing": "change-password",
+        "disabled": false,
+        "is_module": false,
+        "icon": "key",
+        "is_load_menu": false,
+        "active": false
+    },
+    {
+        "code": "SETTINGS",
+        "label": "Settings",
+        "namespace": "settings",
+        "routing": "settings",
+        "disabled": false,
+        "is_module": false,
+        "icon": "setting",
+        "is_load_menu": false,
+        "active": false
+    }
+]
+  

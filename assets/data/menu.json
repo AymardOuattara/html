@@ -1,0 +1,270 @@
+[
+  {
+    "code": "SETTINGS",
+    "label": "SHOES",
+    "namespace": "settings",
+    "routing": "settings",
+    "disabled": false,
+    "is_module": true,
+    "icon": "setting",
+    "is_load_menu": false,
+    "active": false,
+    "description": "Description",
+    "apiEndpoint": "http://197.159.198.13:8084/parametrage/api/ParametresGeneraux/",
+    "sub": [
+      {
+        "parent_code":"SETTINGS",
+        "code":"GENEREAL",
+        "label": "General",
+        "description": "Description",
+        "routing": "settings/general",
+        "namespace": "settings"
+      },
+      {
+        "parent_code":"SETTINGS",
+        "code":"REFERENCE",
+        "label": "Reference",
+        "is_group_title": true,
+        "description": "Description",
+        "routing": "settings/reference",
+        "namespace": "settings",
+        "sub": [
+          {
+            "parent_code":"REFERENCE",
+            "code":"TYPE_CERTIFICATE",
+            "label": "Type Certificate",
+            "description": "Description",
+            "routing": "settings/reference/type-certificate",
+            "namespace": "settings/reference",
+            "icon": "",
+            "active": false
+          },
+          {
+            "parent_code":"REFERENCE",
+            "code":"COLOR_CERTIFICATE",
+            "label": "Color Certificate",
+            "description": "Description",
+            "routing": "settings/reference/color-certificate",
+            "namespace": "settings/reference",
+            "active": false
+          },
+          {
+            "parent_code":"REFERENCE",
+            "code":"NATURE_CERTIFICATE",
+            "label": "Nature Certificate",
+            "description": "Description",
+            "routing": "settings/reference/nature-certificate",
+            "namespace": "settings/reference",
+            "icon": "",
+            "active": false
+          },
+          {
+            "parent_code":"REFERENCE",
+            "code":"CONTINENT",
+            "label": "Continent",
+            "description": "Description",
+            "routing": "settings/reference/continent",
+            "namespace": "settings/reference",
+            "icon": "",
+            "active": false
+          },
+          {
+            "parent_code":"REFERENCE",
+            "code":"COUNTRY",
+            "label": "Country",
+            "description": "Description",
+            "routing": "settings/reference/country",
+            "namespace": "settings/reference",
+            "icon": "",
+            "active": false
+          }
+        ]
+      },
+      {
+        "parent_code":"SETTINGS",
+        "code":"REGIONAL",
+        "label": "Regional",
+        "is_group_title": true,
+        "description": "Description",
+        "routing": "settings/regional",
+        "icon": "global",
+        "namespace": "settings",
+        "sub": [
+          {
+            "parent_code":"REGIONAL",
+            "code":"LANG",
+            "label": "Lang",
+            "description": "Description",
+            "routing": "settings/regional/lang",
+            "namespace": "settings/regional",
+            "icon": "",
+            "active": false
+          },
+          {
+            "parent_code":"REGIONAL",
+            "code":"TRANSLATION",
+            "label": "Translation",
+            "description": "Description",
+            "routing": "settings/regional/translation",
+            "namespace": "settings/regional",
+            "icon": "translation",
+            "active": false
+          }
+        ]
+      },
+      {
+        "parent_code":"SETTINGS",
+        "code":"NOTIFICATIONS",
+        "label": "Notifications",
+        "is_group_title": true,
+        "description": "Description",
+        "routing": "settings/notifications",
+        "icon": "bell",
+        "namespace": "settings"
+      },
+      {
+        "parent_code":"SETTINGS",
+        "code":"THEME",
+        "label": "Graphical Charter",
+        "is_group_title": true,
+        "description": "Description",
+        "routing": "settings/theme",
+        "icon": "bg-colors",
+        "namespace": "settings"
+      },
+      {
+        "parent_code":"SETTINGS",
+        "code":"CORE",
+        "label": "Core",
+        "is_group_title": true,
+        "description": "Description",
+        "routing": "settings/core",
+        "icon": "tool",
+        "namespace": "settings"
+      },
+      {
+        "parent_code":"SETTINGS",
+        "code":"SECURITY",
+        "label": "Security",
+        "is_group_title": true,
+        "description": "Description",
+        "routing": "settings/security",
+        "icon": "safety",
+        "namespace": "settings"
+      }
+    ]
+  },
+  {
+    "code": "ADMINISTRATION",
+    "label": "WOMAN",
+    "namespace": "administration",
+    "routing": "administration",
+    "disabled": false,
+    "is_module": true,
+    "icon": "team",
+    "is_load_menu": false,
+    "active": false,
+    "description": "Description",
+    "apiEndpoint": "http://197.159.198.13:8084/administration/api/ParametresGeneraux/",
+    "sub": [
+      {
+        "parent_code": "ADMINISTRATION",
+        "code":"FEATURE",
+        "label": "Feature",
+        "description": "Description",
+        "routing": "administration/feature",
+        "namespace": "administration",
+        "active": false
+      },
+      {
+        "parent_code": "ADMINISTRATION",
+        "code":"PROFIL",
+        "label": "Profil",
+        "description": "Description",
+        "routing": "administration/profile",
+        "namespace": "administration",
+        "active": false
+      },
+      {
+        "parent_code": "ADMINISTRATION",
+        "code":"USER",
+        "label": "User",
+        "description": "Description",
+        "routing": "administration/user",
+        "namespace": "administration",
+        "active": false,
+        "sub": [
+          {
+            "parent_code": "USER",
+            "code":"USER_DASH",
+            "label": "Dashboard",
+            "description": "Description",
+            "routing": "administration/user",
+            "namespace": "administration/user",
+            "icon": "",
+            "active": false
+          },
+          {
+            "parent_code": "USER",
+            "code":"USER_CREATE",
+            "label": "Create",
+            "description": "Description",
+            "routing": "administration/user/create",
+            "namespace": "administration/user",
+            "icon": "",
+            "active": false
+          },
+          {
+            "parent_code": "USER",
+            "code":"LDAP",
+            "label": "LDAP Synchronisation",
+            "description": "Description",
+            "routing": "administration/user/ldap",
+            "namespace": "administration/user",
+            "icon": "",
+            "active": false
+          },
+          {
+            "parent_code": "USER",
+            "code":"SSO",
+            "label": "SSO Synchronisation",
+            "description": "Description",
+            "routing": "administration/user/sso",
+            "namespace": "administration/user",
+            "icon": "",
+            "active": false
+          },
+          {
+            "parent_code": "USER",
+            "code":"DIRECTORY",
+            "label": "Directory Synchronisation",
+            "description": "Description",
+            "routing": "administration/user/directory",
+            "namespace": "administration/user",
+            "icon": "",
+            "active": false
+          }
+        ]
+      },
+      {
+        "parent_code": "ADMINISTRATION",
+        "code":"AUTHORIZATION",
+        "label": "Authorization",
+        "description": "Description",
+        "routing": "administration/authorization",
+        "namespace": "administration",
+        "active": false
+      },
+      {
+        "parent_code": "ADMINISTRATION",
+        "code":"PERMISSION",
+        "label": "Permission",
+        "description": "Description",
+        "routing": "administration/permission",
+        "namespace": "administration",
+        "active": false
+      }
+    ]
+  }
+]
+  

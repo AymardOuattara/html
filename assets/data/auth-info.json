@@ -1,0 +1,103 @@
+{
+    "id":"",
+    "first_name":"",
+    "last_name":"",
+    "email":"",
+    "phone":"",
+    "login":"",
+    "avatar":"",
+    "is_root":"",
+    "token":"",
+    "profil":"",
+    "permissions":[
+        
+    ],
+    "menu": [
+        {
+            "code": "SETTINGS",
+            "label": "SETTINGS",
+            "namespace": "settings",
+            "routing": "settings",
+            "disabled": false,
+            "is_module": true,
+            "icon": "setting",
+            "is_load_menu": false,
+            "active": false,
+            "description": "Description",
+            "apiEndpoint": "http://197.159.198.13:8084/parametrage/api/ParametresGeneraux/",
+            "sub": [
+              {
+                "parent_code":"SETTINGS",
+                "code":"GENEREAL",
+                "label": "General",
+                "description": "Description",
+                "routing": "settings/general",
+                "namespace": "settings",
+                "icon": "setting"
+              },
+              {
+                "parent_code":"SETTINGS",
+                "code":"REFERENCE",
+                "label": "Reference",
+                "is_group_title": true,
+                "description": "Description",
+                "routing": "settings/reference",
+                "icon": "hdd",
+                "namespace": "settings",
+                "sub": [
+                  {
+                    "parent_code":"REFERENCE",
+                    "code":"TYPE_CERTIFICATE",
+                    "label": "Type Certificate",
+                    "description": "Description",
+                    "routing": "settings/reference/type-certificate",
+                    "namespace": "settings/reference",
+                    "icon": "",
+                    "active": false
+                  },
+                  {
+                    "parent_code":"REFERENCE",
+                    "code":"COLOR_CERTIFICATE",
+                    "label": "Color Certificate",
+                    "description": "Description",
+                    "routing": "settings/reference/color-certificate",
+                    "namespace": "settings/reference",
+                    "icon": "",
+                    "active": false
+                  },
+                  {
+                    "parent_code":"REFERENCE",
+                    "code":"NATURE_CERTIFICATE",
+                    "label": "Nature Certificate",
+                    "description": "Description",
+                    "routing": "settings/reference/nature-certificate",
+                    "namespace": "settings/reference",
+                    "icon": "",
+                    "active": false
+                  },
+                  {
+                    "parent_code":"REFERENCE",
+                    "code":"CONTINENT",
+                    "label": "Continent",
+                    "description": "Description",
+                    "routing": "settings/reference/continent",
+                    "namespace": "settings/reference",
+                    "icon": "",
+                    "active": false
+                  },
+                  {
+                    "parent_code":"REFERENCE",
+                    "code":"COUNTRY",
+                    "label": "Country",
+                    "description": "Description",
+                    "routing": "settings/reference/country",
+                    "namespace": "settings/reference",
+                    "icon": "",
+                    "active": false
+                  }
+                ]
+              }
+            ]
+          }
+    ]
+}
